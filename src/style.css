@@ -1,0 +1,32 @@
+@import url("https://fonts.google.com/specimen/Montserrat?query=monts");
+
+
+body{
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar a{
+    text-decoration: none;
+    padding: 5px;
+    font-size: 16px;
+}
+
+h1{
+    font-size: 32px;
+}
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+.elemento{
+    padding: 15px;
+}
