@@ -3,6 +3,7 @@
 
 body{
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -29,12 +30,13 @@ body{
     
 }
 
+
 .menuP img{
     padding: 20px;
 }
 
 hr {
-    border: 1px solid black;
+    border: 1px solid #212429;
     margin: 1rem;
     height:0;
 }
@@ -42,6 +44,7 @@ hr {
 h1{
     font-size: 32px;
     padding: 20px;
+    
 }
 
 .container{
@@ -50,27 +53,40 @@ h1{
     text-align: center;
     padding-left: 40px;
     padding-right: 40px;
+    
 }
 .elemento p{
     display: flex;
     justify-content: center;
-    
 }
 
-footer{
+.elemento img{
+    border-radius: 16px;
+}
+
+strong{
+    padding-left: 100px;
+}
+
+
+.pie{
     display: flex;
     background-color: #212429;
     justify-content: space-around;
-    height: 50px;
     align-items: center;
     padding: 1rem;
-
-    
 }
 
-footer a{
+.cajaF{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.pie a{
     color:#ffffff;
     text-decoration: none;
+    padding-left: 16px;
 }
 
 .iconoF{
@@ -80,7 +96,7 @@ footer a{
 }
 
 
-@media (max-width:920px) {
+@media (max-width:1096px) {
 .menu{
     display: none;
 }
